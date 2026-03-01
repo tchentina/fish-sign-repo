@@ -31,3 +31,4 @@ mono_crash.*
 *.dmp
 *.stacktrace
 crash*.log
+.plastic/
