@@ -52,7 +52,7 @@ namespace Camera {
             ISO:
             
             // TODO - best resolution
-            webCamTexture = new WebCamTexture(currentDevice.Value.name, 720, 720, 30);
+            webCamTexture = new WebCamTexture(currentDevice.Value.name, 1280, 720, 30);
             
             
             if (webCamTexture.graphicsFormat == GraphicsFormat.R8G8B8A8_UNorm);
